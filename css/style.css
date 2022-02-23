@@ -1,0 +1,152 @@
+body {
+    background-color: antiquewhite;
+}
+
+.box {
+    width: 1000px;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+    background-color: white;
+}
+
+.box-part1 {
+    width: 100%;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.back-button {
+    text-decoration: none;
+    color: rgb(83, 78, 78);
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+}
+
+.back {
+    position: relative;
+    top: 6px;
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.back-button:hover {
+    color: black;
+}
+
+
+/* part2 start */
+
+.box-part2 {
+    padding: 20px 20px 60px 0px;
+    margin-left: 70px;
+}
+
+.heading {
+    margin-bottom: 60px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 250px;
+}
+
+.nav-list__link {
+    list-style-type: none;
+}
+
+.nav-list__link>a {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.nav-list__link>a:hover {
+    color: black;
+}
+
+.site-hero {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.site-hero__title {
+    font-size: 70px;
+    font-weight: 300;
+    width: 500px;
+    height: 170px;
+}
+
+.line {
+    position: relative;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(63, 61, 61);
+    top: -40px;
+    left: 350px;
+}
+
+.site-hero__subtitle {
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.site-description {
+    display: flex;
+    justify-content: space-aro;
+}
+
+.description-img {
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 40px;
+}
+
+.play {
+    position: relative;
+    top: -80px;
+    left: 80px;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.view-button {
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.forward {
+    position: relative;
+    top: 7px;
+}
+
+.site-description__text {
+    position: relative;
+    top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 70px;
+}
